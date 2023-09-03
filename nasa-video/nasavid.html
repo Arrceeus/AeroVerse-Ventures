@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://bouncecss.bookie0.repl.co/bounce.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href ="style.css"rel ="stylesheet" type="text/css">
+    <!-- <link href="float-grid.css" rel="stylesheet" type="text/css"/>  -->
+    <script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>       
+<style>  body {
+    background-image: linear-gradient(90deg, #c3eca7, #B4E3FF);
+    opacity: .9;
+    font-family: 'Roboto', sans-serif !important;
+} </style>
+    <title>Search on NASA Database </title>
+</head>
+<body class="background-all">
+<!-- section for start page--->
+<h1>Welcome to the Video Search Section of AeroVerse Ventures!</h1>
+  
+        <main aria-live="polite">
+ <!-- display NASA Search Bar-->                
+        <div id="error"></div>
+            <section class="NASA" id="header-content-container" aria-live="assertive">           
+            <form role="form" class="NASA-search" aria-label="form">
+              <label aria-label="search box" for="query-search-box"></label>
+               <input placeholder=' "Write anything"' id="NASA-search-box" type="text" class="js-query-i">
+               <button type="submit" class="trigger">S e a r c h</button>
+            </form>
+            </section>  
+<!-- display search results content-->                     
+        <div role="contentinfo" id="js-search-results">
+                <div id="js-count-results" aria-live="polite"></div>  
+                <div id="js-videos-results"  class="container" aria-live="polite"></div>
+                <div id="js-images-results"  class="container" aria-live="polite"></div>
+        </div>                               
+        </main>
+        <FOOTER aria-label="footer" role="footer">
+            <nav aria-label="nav" role="nav" id="back-to-top-button"> 
+            </nav>
+        </FOOTER> 
+<script src="nasavid.js"></script>
+</body>
+</html>
