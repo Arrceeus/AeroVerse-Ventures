@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aircraft VR Model</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene>
+    <!-- Load Aircraft Model -->
+    <a-asset-item id="aircraftModel" src="scene.gltf"></a-asset-item>
+
+    <!-- Create the Aircraft -->
+    <a-entity gltf-model="#aircraftModel" scale="0.1 0.1 0.1"></a-entity>
+
+    <!-- Set Camera Position and Controls -->
+    <a-camera position="0 2 5" look-controls></a-camera>
+  </a-scene>
+</body>
+</html>
