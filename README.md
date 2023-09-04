@@ -3,7 +3,8 @@ A dynamic platform that seamlessly integrates VR technology to enhance the aeros
 -  With interactive simulations, engaging games, and immersive VR content, we've transformed aerospace education into an exciting journey of exploration, making it fun, interactive, and informative.
 
 
-#Main Features :
+# Main Features :
+
 **1. 🌟Bite-Sized Learning module :** Our bite-sized course modules make learning a joy, without the textbook overload. With easy-to-follow lessons and interactive quizzes, you'll master aerospace engineering effortlessly. Say goodbye to overwhelming textbooks and hello to an engaging learning experience
 
 **2. 💡 Interactive VR Simulations :** This provides "Hands-On Learning" experience. AeroVerse Ventures' VR aviation simulations provide hands-on learning like never before. Experience take-offs, landings, and in-flight maneuvers, gaining practical insights into aviation principles. Join the realistic adventures and experience aerospace with immersive VR simulations.
