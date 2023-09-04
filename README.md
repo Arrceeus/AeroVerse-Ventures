@@ -2,6 +2,7 @@
 A dynamic platform that seamlessly integrates VR technology to enhance the aerospace and aviation learning experience. 
 -  With interactive simulations, engaging games, and immersive VR content, we've transformed aerospace education into an exciting journey of exploration, making it fun, interactive, and informative.
 
+- Try out our Aircarft VR simulator and check out our other features on our website : https://aeroverse-ventures.rafijunayedjr.repl.co/
 
 # Main Features :
 
@@ -13,10 +14,12 @@ A dynamic platform that seamlessly integrates VR technology to enhance the aeros
 
 **4. 🌱 Eco-Friendly Space Tech :** We delve into groundbreaking innovations that are reshaping space exploration. From eco-friendly spacecraft propulsion to sustainable space habitats
 
-**5. 🌌 Aerospace News Feed :** Stay updated with the latest aerospace news through an API.
+**5. 🚀 NASA Open Space Database :** The NASA Open Space Database is a cosmic treasure chest, offering an extensive collection of space mission and rocket information, along with captivating aviation images and videos. Powered by the NASA Open Space Database API, this resource provides a dynamic and constantly updated information about 🚀Rockets, 🚀Space satelites and other aviations.
 
-**6. 🚀 Rocket Design Tool :** Design and simulate your rockets for hands-on learning.
+**6. 🌌 Aerospace News Feed :** Stay updated with the latest aerospace news through an API.
 
-**7. 🛅 3D Printing Blueprints :** Design spacecraft, satellites, and aircraft with provided blueprints.
+**7. 🚀 Rocket Design Tool :** Design and simulate your rockets for hands-on learning.
 
-**8. 🌠 Aerospace Puzzle Games :** Engaging minigames and trivia quizs to learn aerospace concepts playfully.
+**8. 🛅 3D Printing Blueprints :** Design spacecraft, satellites, and aircraft with provided blueprints.
+
+**9. 🌠 Aerospace Puzzle Games :** Engaging minigames and trivia quizs to learn aerospace concepts playfully.
