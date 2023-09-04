@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Nasa Photo of the Day</title>
+  <link href="../bounce.css" rel="stylesheet" type="text/css" />
+<style>  body {
+    background-image: linear-gradient(90deg, #c3eca7, #B4E3FF);
+    opacity: .9;
+    font-family: 'Roboto', sans-serif !important;
+} </style>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+
+<title>Photo of the Day</title>
+</head>
+<body>
+  <div id="photoContainer">
+    <h1>NASA Photo of the Day</h1>
+    <img id="photo" src="" alt="Aerospace Photo">
+    <p id="photoTitle"></p>
+  </div>
+
+  <script>
+    function fetchPhotoOfTheDay() {
+      fetch('https://api.nasa.gov/planetary/apod?api_key=2kkUQRpndW0Wcmh0Y1T6V0eV8fCgQhTsJtaW9EWh')
+        .then(response => response.json())
+        .then(data => {
+          const photoElement = document.getElementById('photo');
+          const titleElement = document.getElementById('photoTitle');
+
+          photoElement.src = data.url;
+          titleElement.textContent = data.title;
+        })
+        .catch(error => console.error('Error fetching photo:', error));
+    }
+
+    // Fetch photo initially
+    fetchPhotoOfTheDay();
+
+    // Schedule to fetch photo every day at a specific time
+    function schedulePhotoFetch() {
+      const now = new Date();
+      const targetTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 0, 0); 
+
+      const timeUntilFetch = targetTime - now;
+      if (timeUntilFetch > 0) {
+        setTimeout(() => {
+          fetchPhotoOfTheDay();
+          schedulePhotoFetch(); // Reschedule for the next day
+        }, timeUntilFetch);
+      }
+    }
+
+    schedulePhotoFetch();
+  </script>
+  </body>
+
+</html>
